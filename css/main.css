@@ -151,19 +151,18 @@ a:hover {
 
 @media screen and (max-width: 600px) {
     #container {
-      grid-template-columns: repeat(1, auto);
-      grid-template-rows: repeat(10, auto);
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(9, auto);
       grid-template-areas:
-      "header"
-      "pairing"
-      "arial"
-      "georgia"
-      "bobwhite-quail"
-      "readability"
-      "line-length"
-      "typeface"
-      "helvetica"
-      "footer";
+      "header header"
+      "arial georgia"
+      "pairing pairing"
+      "bobwhite-quail bobwhite-quail"
+      "readability readability"
+      "line-length line-length"
+      "typeface typeface"
+      "helvetica helvetica"
+      "footer footer";
     }
 
     header {
